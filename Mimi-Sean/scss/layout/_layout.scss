@@ -1,13 +1,24 @@
-/* layout */
+/* define media queries */
+
+$tablet: 600px;
+
 header {
   width: 100%;
   padding: 12px;
+  @media (max-width: $tablet){
+    width: 100%;
+    padding: 0;
+  }
 }
 
 main {
   width: 68%;
   margin: 10px 2% 10px 5%;
   float: left;
+  @media (max-width: $tablet){
+    width: 100%;
+    margin: 0;
+  }
 }
 
 aside {
@@ -15,6 +26,12 @@ aside {
   width: 21%;
   float: left;
   padding: 6px;
+  @media (max-width: $tablet){
+    clear: both;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 footer {
