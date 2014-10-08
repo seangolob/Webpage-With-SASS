@@ -1,3 +1,4 @@
+/* base */
 @font-face {
   font-family: 'icomoon';
   src: url("icomoon/fonts/icomoon.eot?j6x7ai");
@@ -55,6 +56,7 @@ html {
 .inline-Navbar {
   list-style: none; }
 
+/* layout */
 header {
   width: 100%;
   padding: 12px; }
@@ -76,42 +78,43 @@ footer {
   background-color: darkgray;
   clear: both; }
 
-.main-Nav {
+/* NAV-MODULE */
+.main-nav {
   border-top: 4px solid black; }
+  .main-nav li {
+    display: inline-block;
+    font-size: 2em;
+    margin-right: 2em; }
 
-.inline-Navbar li {
-  display: inline-block;
-  font-size: 2em;
-  margin-right: 2em; }
-
+/* FEATURE-MODULE */
 .feature__mainImage {
   width: 100%;
   margin: 0;
   border: 1px solid black; }
-
 .feature__title {
   font-weight: bold;
   font-size: 2em;
   margin: 10px 6px 8px 12px; }
-
 .feature__teaser {
   margin: 0 6px 8px 12px; }
 
-.other-Article {
+/* OTHER ARTICLE-MODULE */
+.other-article {
   width: 100%;
   border-bottom: 1px solid gray; }
-  .other-Article h1 {
-    text-transform: uppercase;
-    color: red;
-    margin-left: 10px; }
-  .other-Article h2 {
-    font-size: 1.6em;
-    margin-left: 10px; }
+  .other-article h1 {
+    color: red; }
+  .other-article h2 {
+    font-size: 1.6em; }
 
-.footer-Nav {
+/* FOOTER-MODULE */
+.footer-nav {
   text-align: center;
   padding-top: 10px; }
-  .footer-Nav li {
+  .footer-nav li {
+    display: inline-block;
+    font-size: 2em;
+    margin-right: 2em;
     color: #FFF;
     font-size: 1em; }
 

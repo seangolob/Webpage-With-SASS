@@ -1,0 +1,11 @@
+/* FOOTER-MODULE */
+
+.footer-nav {
+  text-align: center;
+  padding-top: 10px;
+  li {
+    @include nav-format;
+    color: #FFF;
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,19 @@
+/* FEATURE-MODULE */
+
+.feature {
+  &__mainImage {
+    width: 100%;
+    margin: 0;
+    border: 1px solid black;
+  }
+  &__title {
+    font: {
+      weight: bold;
+      size: 2em;
+    }
+    margin: 10px 6px 8px 12px;
+  }
+  &__teaser {
+    margin: 0 6px 8px 12px;
+  }
+}
