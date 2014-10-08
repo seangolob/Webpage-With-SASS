@@ -28,25 +28,22 @@
 .other-Article {
   width: 100%;
   border-bottom: 1px solid gray;
-}
-
-.other-Article h1 {
-  text-transform: uppercase;
-  color: red;
-  margin-left: 10px;
-}
-
-.other-Article h2 {
-  font-size: 1.6em;
-  margin-left: 10px;
+  h1 {
+    text-transform: uppercase;
+    color: red;
+    margin-left: 10px;
+  }
+  h2 {
+    font-size: 1.6em;
+    margin-left: 10px;
+  }
 }
 
 .footer-Nav {
   text-align: center;
   padding-top: 10px;
-}
-
-.footer-Nav li {
-  color: #FFF;
-  font-size: 1em;
+  li {
+    color: #FFF;
+    font-size: 1em;
+  }
 }
