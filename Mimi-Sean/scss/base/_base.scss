@@ -13,6 +13,13 @@ $medium: $small * 1.62;
 $large: $medium * 1.62;
 $gigantor: $large * 1.62;
 
+h1 {
+  font-size: $large;
+}
+
+h2 {
+  font-size: $medium;
+}
 
 p {
    font-family: 'Times';
@@ -31,16 +38,11 @@ body {
   padding: 0;
 }
 
-.by-line {
-  font-size: $medium;
-  color: $beta-dark;
-  margin-left: 10px;
+.banner-title {
+  font-size: $gigantor;
 }
 
 .hidden {
   display:none;
 }
 
-.inline-Navbar {
-  list-style: none;
-}

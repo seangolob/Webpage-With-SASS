@@ -6,6 +6,6 @@
   li {
     @include nav-format;
     color: #FFF;
-    font-size: 1em;
+    font-size: $small;
   }
 }

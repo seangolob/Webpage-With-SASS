@@ -4,5 +4,6 @@
   border-top: 4px solid black;
   li {
     @include nav-format;
+    font-size: $large;
   }
 }

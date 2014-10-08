@@ -4,9 +4,10 @@
   width: 100%;
   border-bottom: 1px solid gray;
   h1 {
-    color: red;
+    color: $alpha-light;
   }
-  h2 {
-    font-size: 1.6em;
+  p {
+    @include by-line;
   }
 }
+

@@ -1,42 +1,11 @@
-<<<<<<< HEAD
-/* base */
-@font-face {
-  font-family: 'icomoon';
-  src: url("icomoon/fonts/icomoon.eot?j6x7ai");
-  src: url("icomoon/fonts/icomoon.eot?#iefixj6x7ai") format("embedded-opentype"), url("icomoon/fonts/icomoon.woff?j6x7ai") format("woff"), url("icomoon/fonts/icomoon.ttf?j6x7ai") format("truetype"), url("icomoon/fonts/icomoon.svg?j6x7ai#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-[class^="icon-"], [class*=" icon-"] {
-  font-family: 'icomoon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1; }
-
-.icon-pencil:before {
-  content: "\e600"; }
-
-.icon-headphones:before {
-  content: "\e601"; }
-
-.icon-user:before {
-  content: "\e602"; }
-
-.icon-binoculars:before {
-  content: "\e603"; }
-
-.icon-aid:before {
-  content: "\e604"; }
-
-.icon-truck:before {
-  content: "\e605"; }
-
-=======
 /* define base colors */
 /* define base font sizes */
->>>>>>> 98d454bbed62ec4b854e8e76a3bc92680cfdd1f1
+h1 {
+  font-size: 34.01222px; }
+
+h2 {
+  font-size: 20.9952px; }
+
 p {
   font-family: 'Times';
   font-size: 12.96px; }
@@ -51,16 +20,11 @@ body {
   margin: 0;
   padding: 0; }
 
-.by-line {
-  font-size: 20.9952px;
-  color: #b3b3b3;
-  margin-left: 10px; }
+.banner-title {
+  font-size: 55.0998px; }
 
 .hidden {
   display: none; }
-
-.inline-Navbar {
-  list-style: none; }
 
 /* layout */
 header {
@@ -89,18 +53,20 @@ footer {
   border-top: 4px solid black; }
   .main-nav li {
     display: inline-block;
-    font-size: 2em;
-    margin-right: 2em; }
+    margin-right: 2em;
+    font-size: 34.01222px; }
 
 /* FEATURE-MODULE */
-.feature__mainImage {
+.feature__main-image {
   width: 100%;
   margin: 0;
   border: 1px solid black; }
 .feature__title {
   font-weight: bold;
-  font-size: 2em;
   margin: 10px 6px 8px 12px; }
+.feature__author {
+  color: #b3b3b3;
+  margin-left: 10px; }
 .feature__teaser {
   margin: 0 6px 8px 12px; }
 
@@ -110,8 +76,9 @@ footer {
   border-bottom: 1px solid gray; }
   .other-article h1 {
     color: red; }
-  .other-article h2 {
-    font-size: 1.6em; }
+  .other-article p {
+    color: #b3b3b3;
+    margin-left: 10px; }
 
 /* FOOTER-MODULE */
 .footer-nav {
@@ -119,9 +86,8 @@ footer {
   padding-top: 10px; }
   .footer-nav li {
     display: inline-block;
-    font-size: 2em;
     margin-right: 2em;
     color: #FFF;
-    font-size: 1em; }
+    font-size: 12.96px; }
 
 /*# sourceMappingURL=app.css.map */
