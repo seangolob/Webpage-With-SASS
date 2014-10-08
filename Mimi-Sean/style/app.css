@@ -1,5 +1,11 @@
 /* define base colors */
 /* define base font sizes */
+h1 {
+  font-size: 34.01222px; }
+
+h2 {
+  font-size: 20.9952px; }
+
 p {
   font-family: 'Times';
   font-size: 12.96px; }
@@ -20,14 +26,10 @@ body {
 .hidden {
   display: none; }
 
-.inline-Navbar {
-  list-style: none; }
-
 /* define media queries */
 header {
-  width: 100%;
-  padding: 12px; }
-  @media (max-width: 600px) {
+  width: 100%; }
+  @media (max-width: 775px) {
     header {
       width: 100%;
       padding: 0; } }
@@ -36,7 +38,7 @@ main {
   width: 68%;
   margin: 10px 2% 10px 5%;
   float: left; }
-  @media (max-width: 600px) {
+  @media (max-width: 775px) {
     main {
       width: 100%;
       margin: 0; } }
@@ -46,7 +48,7 @@ aside {
   width: 21%;
   float: left;
   padding: 6px; }
-  @media (max-width: 600px) {
+  @media (max-width: 775px) {
     aside {
       clear: both;
       width: 100%;
@@ -66,6 +68,12 @@ footer {
     display: inline-block;
     margin-right: 2em;
     font-size: 34.01222px; }
+    @media (max-width: 775px) {
+      .main-nav li {
+        font-size: 20.9952px; } }
+    @media (max-width: 498px) {
+      .main-nav li {
+        font-size: 12.96px; } }
 
 /* FEATURE-MODULE */
 .feature__main-image {

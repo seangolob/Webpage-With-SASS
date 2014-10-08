@@ -5,5 +5,11 @@
   li {
     @include nav-format;
     font-size: $large;
+    @media (max-width: 775px){
+      font-size: $medium;
+    }
+    @media (max-width: 498px){
+      font-size: $small;
+    }
   }
 }
