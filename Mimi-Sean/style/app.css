@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* base */
 @font-face {
   font-family: 'icomoon';
@@ -32,22 +33,27 @@
 .icon-truck:before {
   content: "\e605"; }
 
+=======
+/* define base colors */
+/* define base font sizes */
+>>>>>>> 98d454bbed62ec4b854e8e76a3bc92680cfdd1f1
 p {
-  font-family: 'Grundschrift';
-  font-weight: normal;
-  font-style: normal; }
+  font-family: 'Times';
+  font-size: 12.96px; }
 
 html {
-  background-color: #FFF;
-  color: black;
-  margin: 0 auto;
-  padding: 0;
+  background-color: #e6e6e6;
   font-family: Arial, sans-serif;
-  font-size: 1em; }
+  padding: 0;
+  margin: 0; }
+
+body {
+  margin: 0;
+  padding: 0; }
 
 .by-line {
-  font-size: 1.3em;
-  color: darkgrey;
+  font-size: 20.9952px;
+  color: #b3b3b3;
   margin-left: 10px; }
 
 .hidden {
@@ -75,7 +81,7 @@ aside {
 footer {
   height: 100px;
   width: 100%;
-  background-color: darkgray;
+  background-color: #b3b3b3;
   clear: both; }
 
 /* NAV-MODULE */
