@@ -1,11 +1,5 @@
 /* define base colors */
 /* define base font sizes */
-h1 {
-  font-size: 34.01222px; }
-
-h2 {
-  font-size: 20.9952px; }
-
 p {
   font-family: 'Times';
   font-size: 12.96px; }
@@ -26,21 +20,38 @@ body {
 .hidden {
   display: none; }
 
-/* layout */
+.inline-Navbar {
+  list-style: none; }
+
+/* define media queries */
 header {
   width: 100%;
   padding: 12px; }
+  @media (max-width: 600px) {
+    header {
+      width: 100%;
+      padding: 0; } }
 
 main {
   width: 68%;
   margin: 10px 2% 10px 5%;
   float: left; }
+  @media (max-width: 600px) {
+    main {
+      width: 100%;
+      margin: 0; } }
 
 aside {
   margin: 10px 0 10px 0;
   width: 21%;
   float: left;
   padding: 6px; }
+  @media (max-width: 600px) {
+    aside {
+      clear: both;
+      width: 100%;
+      margin: 0;
+      padding: 0; } }
 
 footer {
   height: 100px;
