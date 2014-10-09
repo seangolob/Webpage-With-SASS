@@ -1,31 +1,3 @@
-/* define base colors */
-$alpha: #CC0000;
-$alpha-dark: darken($alpha, 10%);
-$alpha-light: lighten($alpha, 10%);
-$beta: #CCCCCC;
-$beta-dark: darken($beta, 10%);
-$beta-light: lighten($beta, 10%);
-
-/* define base font sizes */
-$tiny: 8px;
-$small: $tiny * 1.62;
-$medium: $small * 1.62;
-$large: $medium * 1.62;
-$gigantor: $large * 1.62;
-
-h1 {
-  font-size: $large;
-}
-
-h2 {
-  font-size: $medium;
-}
-
-p {
-   font-family: 'Times';
-   font-size: $small;
-}
-
 html {
   background-color: $beta-light;
   font-family: Arial, sans-serif;
@@ -41,16 +13,6 @@ body {
 a {
   text-decoration: none;
   color: #000;
-}
-
-a:hover {
-  color: red;
-}
-
-.banner-title {
-  font-size: $gigantor;
-  font-family: 'Merriweather', serif;
-  text-align: center;
 }
 
 .hidden {
