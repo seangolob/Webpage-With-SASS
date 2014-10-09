@@ -20,19 +20,35 @@ body {
   margin: 0;
   padding: 0; }
 
+a {
+  text-decoration: none;
+  color: #000; }
+
+a:hover {
+  color: red; }
+
 .banner-title {
-  font-size: 55.0998px; }
+  font-size: 55.0998px;
+  font-family: 'Merriweather', serif;
+  text-align: center; }
 
 .hidden {
   display: none; }
 
 /* define media queries */
 header {
-  width: 100%; }
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  width: 100%;
+  padding: 2em; }
   @media (max-width: 775px) {
     header {
-      width: 100%;
-      padding: 0; } }
+      width: 100%; } }
 
 main {
   width: 68%;

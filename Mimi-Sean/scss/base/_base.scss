@@ -38,8 +38,19 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: red;
+}
+
 .banner-title {
   font-size: $gigantor;
+  font-family: 'Merriweather', serif;
+  text-align: center;
 }
 
 .hidden {
