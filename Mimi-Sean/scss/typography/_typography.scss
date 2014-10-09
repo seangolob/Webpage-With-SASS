@@ -1,0 +1,25 @@
+/* define base font sizes */
+
+$tiny: 8px;
+$small: $tiny * 1.62;
+$medium: $small * 1.62;
+$large: $medium * 1.62;
+$gigantor: $large * 1.62;
+
+/* define base font styles */
+
+html {
+  font-family: 'helvetica', 'arial', 'sans-serif'
+}
+
+h1 {
+  font-size: $large;
+}
+
+h2 {
+  font-size: $medium;
+}
+
+p {
+   font-size: $small;
+}

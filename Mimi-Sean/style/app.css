@@ -1,5 +1,9 @@
 /* define base colors */
 /* define base font sizes */
+/* define base font styles */
+html {
+  font-family: "helvetica", "arial", "sans-serif"; }
+
 h1 {
   font-size: 34.01222px; }
 
@@ -7,7 +11,6 @@ h2 {
   font-size: 20.9952px; }
 
 p {
-  font-family: 'Times';
   font-size: 12.96px; }
 
 html {
@@ -22,14 +25,6 @@ body {
 a {
   text-decoration: none;
   color: #000; }
-
-a:hover {
-  color: red; }
-
-.banner-title {
-  font-size: 55.0998px;
-  font-family: 'Merriweather', serif;
-  text-align: center; }
 
 .hidden {
   display: none; }
@@ -87,6 +82,14 @@ footer {
   clear: both; }
 
 /* NAV-MODULE */
+a:hover {
+  color: red; }
+
+.banner-title {
+  font-size: 55.0998px;
+  font-family: 'Merriweather', serif;
+  text-align: center; }
+
 .main-nav {
   border-top: 4px solid black; }
   .main-nav li {

@@ -1,4 +1,13 @@
 /* NAV-MODULE */
+a:hover {
+  color: red;
+}
+
+.banner-title {
+  font-size: $gigantor;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
 
 .main-nav {
   border-top: 4px solid black;
