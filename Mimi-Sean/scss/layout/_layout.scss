@@ -2,6 +2,11 @@
 
 $tablet: 775px;
 
+.container-body {
+  width: 80%;
+  margin: 0 auto;
+}
+
 header {
   background-color: #fff;
   // border-bottom: 0.1em solid $beta;
@@ -21,6 +26,10 @@ main {
   box-sizing: border-box;         /* Opera/IE 8+ */
   width: 80%;
   margin: 0 auto;
+}
+
+.container-main {
+  background-color: $beta-light;
 }
 
 article {

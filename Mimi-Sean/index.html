@@ -10,56 +10,55 @@
     <link href='http://fonts.googleapis.com/css?family=Merriweather:900' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <header role="banner">
-      <h1 class='banner-title'>Pitchfork</h1>
-      <nav role="navigation"><h1 class="hidden">main-nav</h1>
-        <ul class="main-nav">
-          <li><a href="#">NEWS</a></li>
-          <li><a href="#">REVIEWS</a></li>
-          <li><a href="#">TRACKS</a></li>
-          <li><a href="#">FEATURES</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main role="main">
-      <article class="feature">
-        <img src="featureImage.jpg" class="feature__main-image"></img>
-        <h1 class="feature__title">Title</h1>
-        <h2 class="feature__author">Author/Date</h2>
-        <p class="feature__teaser">Content</p>
-      </article>
-      <aside role="complimentary"><h1 class="hidden">Related Stories</h1>
-        <section class="other-article">
-          <h1>GUEST LISTS</h1>
-          <h2>The Bug</h2>
-          <p>By Ian Cohen; September 5, 2014</p>
-        </section>
-        <section class = "other-article">
-          <h1>RISING</h1>
-          <h2>iLoveMakonnen</h2>
-          <p>By Jeremy Gordon; September 4, 2014</p>
-        </section>
-        <section class = "other-article">
-          <h1>OP-ED</h1>
-          <h2>Back to Mono</h2>
-          <p>By Damon Krukowski; September 3, 2014</p>
-        </section>
-      </aside>
-    </main>
-
-
-   <div style=“clear: both;”></div>
-
-    <footer>
-      <nav role="navigation">
-        <ul class="footer-nav">
-          <li><a href="#">ABOUT US</a></li>
-          <li><a href="#">JOBS</a></li>
-          <li><a href="#">RSS</a></li>
-          <li><a href="#">ADVERTISING</a></li>
-        </ul>
-      </nav>
-    </footer>
+    <div class="container-body">
+      <header role="banner">
+        <h1 class='banner-title'>Pitchfork</h1>
+        <nav role="navigation"><h1 class="hidden">main-nav</h1>
+          <ul class="main-nav">
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">REVIEWS</a></li>
+            <li><a href="#">TRACKS</a></li>
+            <li><a href="#">FEATURES</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container-main">
+        <main role="main">
+          <article class="feature">
+            <img src="featureImage.jpg" class="feature__main-image"></img>
+            <h1 class="feature__title">Title</h1>
+            <h2 class="feature__author">Author/Date</h2>
+            <p class="feature__teaser">Content</p>
+          </article>
+          <aside role="complimentary"><h1 class="hidden">Related Stories</h1>
+            <section class="other-article">
+              <h1>GUEST LISTS</h1>
+              <h2>The Bug</h2>
+              <p>By Ian Cohen; September 5, 2014</p>
+            </section>
+            <section class = "other-article">
+              <h1>RISING</h1>
+              <h2>iLoveMakonnen</h2>
+              <p>By Jeremy Gordon; September 4, 2014</p>
+            </section>
+            <section class = "other-article">
+              <h1>OP-ED</h1>
+              <h2>Back to Mono</h2>
+              <p>By Damon Krukowski; September 3, 2014</p>
+            </section>
+          </aside>
+        </main>
+      <div>
+      <footer>
+        <nav role="navigation">
+          <ul class="footer-nav">
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">JOBS</a></li>
+            <li><a href="#">RSS</a></li>
+            <li><a href="#">ADVERTISING</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
   </body>
 </html>
