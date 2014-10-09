@@ -1,6 +1,5 @@
-/* define base colors */
-/* define base font sizes */
-/* define base font styles */
+/* DEFINE BASE COLORS */
+/* DEFINE BASE FONT FILES */
 html {
   font-family: helvetica, arial, sans-serif; }
 
@@ -106,8 +105,7 @@ a:hover {
   .feature section {
     padding: 2em; }
   .feature img {
-    width: 100%;
-    margin: 0; }
+    width: 100%; }
 
 /* OTHER ARTICLE-MODULE */
 .other-article {
