@@ -4,6 +4,7 @@ $tablet: 775px;
 
 header {
   background-color: #fff;
+  // border-bottom: 0.1em solid $beta;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;         /* Opera/IE 8+ */
@@ -15,6 +16,14 @@ header {
 }
 
 main {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  width: 80%;
+  margin: 0 auto;
+}
+
+article {
   width: 68%;
   margin: 10px 2% 10px 5%;
   float: left;

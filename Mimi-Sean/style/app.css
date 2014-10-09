@@ -11,7 +11,6 @@ p {
   font-size: 12.96px; }
 
 html {
-  background-color: #e6e6e6;
   font-family: Arial, sans-serif;
   padding: 0;
   margin: 0; }
@@ -51,11 +50,21 @@ header {
       width: 100%; } }
 
 main {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  width: 80%;
+  margin: 0 auto; }
+
+article {
   width: 68%;
   margin: 10px 2% 10px 5%;
   float: left; }
   @media (max-width: 775px) {
-    main {
+    article {
       width: 100%;
       margin: 0; } }
 
