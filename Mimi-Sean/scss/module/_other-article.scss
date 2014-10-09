@@ -1,13 +1,11 @@
 /* OTHER ARTICLE-MODULE */
 
 .other-article {
-  width: 100%;
-  border-bottom: 1px solid gray;
-  h1 {
-    color: $alpha-light;
-  }
-  p {
-    @include by-line;
+  border-top: 1px dotted $beta;
+  border-bottom: 1px dotted $beta;
+  padding: 1em;
+  @media (max-width: 1024px) {
+    padding: 2em;
   }
 }
 

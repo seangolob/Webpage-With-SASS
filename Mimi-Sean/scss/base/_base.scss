@@ -1,13 +1,11 @@
-html {
-  font-family: Arial, sans-serif;
-  padding: 0;
+/* BASE */
+body, h1, ul {
   margin: 0;
+  padding: 0;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background-color: $beta-darkest;
+h2 {
+  padding: 0.1em 0;
 }
 
 a {

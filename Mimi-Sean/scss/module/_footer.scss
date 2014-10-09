@@ -1,15 +1,18 @@
 /* FOOTER-MODULE */
 
 .footer-nav {
+  border-top: 0.1em solid $beta-darker;
+  background-color: $beta-dark;
   text-align: center;
-  padding-top: 10px;
+  padding: 1em 0 5em;
   li {
     @include nav-format;
-    color: #FFF;
-    font-size: $small;
   }
-}
-
-ul {
-  margin-top: 0;
+  a {
+    color: $beta;
+    font-size: $tiny;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }

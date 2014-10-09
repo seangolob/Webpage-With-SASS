@@ -9,11 +9,12 @@ $gigantor: $large * 1.62;
 /* define base font styles */
 
 html {
-  font-family: 'helvetica', 'arial', 'sans-serif'
+  font-family: helvetica, arial, sans-serif;
 }
 
 h1 {
-  font-size: $large;
+  font-size: $small;
+  color: $alpha-light;
 }
 
 h2 {
@@ -22,4 +23,5 @@ h2 {
 
 p {
    font-size: $small;
+   color: $beta-dark;
 }

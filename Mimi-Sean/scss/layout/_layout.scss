@@ -1,67 +1,52 @@
-/* define media queries */
+/* LAYOUT */
+$tablet: 1024px;
 
-$tablet: 775px;
+body {
+  background-color: $beta-darkest;
+}
 
 .container-body {
   width: 80%;
   margin: 0 auto;
-}
-
-header {
-  background-color: #fff;
-  // border-bottom: 0.1em solid $beta;
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-  box-sizing: border-box;         /* Opera/IE 8+ */
-  width: 100%;
-  padding: 2em;
   @media (max-width: $tablet){
     width: 100%;
   }
 }
 
-main {
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-  box-sizing: border-box;         /* Opera/IE 8+ */
+header {
   width: 100%;
-  margin: 0 auto;
-  background-color: $beta-light;
-  padding: 0.5em 0;
+  background-color: #fff;
 }
 
-.inner-contain {
+main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.9em 0;
+  background-color: $beta-light;
+}
+
+.inner-main {
   background: #fff;
   width: 90%;
   margin: 0 auto;
 }
 
 article {
-  width: 68%;
-  margin: 10px 2% 10px 5%;
+  width: 70%;
   float: left;
   @media (max-width: $tablet){
     width: 100%;
-    margin: 0;
   }
 }
 
 aside {
-  margin: 10px 0 10px 0;
-  width: 21%;
+  width: 30%;
   float: left;
-  padding: 6px;
   @media (max-width: $tablet){
-    clear: both;
     width: 100%;
-    margin: 0;
-    padding: 0;
   }
 }
 
 footer {
-  height: 100px;
   width: 100%;
-  background-color: $beta-dark;
-  clear: both;
 }

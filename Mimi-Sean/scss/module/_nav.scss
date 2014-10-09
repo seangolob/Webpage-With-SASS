@@ -7,18 +7,15 @@ a:hover {
   font-size: $gigantor;
   font-family: 'Merriweather', serif;
   text-align: center;
+  padding-top: 1.5em;
+  color: #000;
 }
 
 .main-nav {
-  border-top: 4px solid black;
+  border-top: 0.2em solid black;
+  text-align: center;
   li {
     @include nav-format;
-    font-size: $large;
-    @media (max-width: 775px){
-      font-size: $medium;
-    }
-    @media (max-width: 498px){
-      font-size: $small;
-    }
+    font-size: $small;
   }
 }

@@ -1,19 +1,14 @@
 /* FEATURE-MODULE */
 
 .feature {
-  &__main-image {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  section {
+    padding: 2em;
+  }
+  img {
     width: 100%;
     margin: 0;
-    border: 1px solid black;
-  }
-  &__title {
-    font-weight: bold;
-    margin: 10px 6px 8px 12px;
-  }
-  &__author {
-    @include by-line;
-  }
-  &__teaser {
-    margin: 0 6px 8px 12px;
   }
 }
