@@ -95,31 +95,24 @@ a:hover {
     font-size: 12.96px; }
 
 /* FEATURE-MODULE */
-.feature {
-  -webkit-box-sizing: border-box;
-  /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;
-  /* Firefox, other Gecko */
-  box-sizing: border-box;
-  /* Opera/IE 8+ */ }
-  .feature section {
-    padding: 2em; }
-  .feature img {
-    width: 100%; }
+.feature section {
+  padding: 2em; }
+  @media (max-width: 1024px) {
+    .feature section {
+      padding: 1em; } }
+.feature img {
+  width: 100%; }
 
 /* OTHER ARTICLE-MODULE */
 .other-article {
   border-top: 1px dotted #CCCCCC;
   border-bottom: 1px dotted #CCCCCC;
   padding: 1em; }
-  @media (max-width: 1024px) {
-    .other-article {
-      padding: 2em; } }
 
 /* FOOTER-MODULE */
 .footer-nav {
   border-top: 0.1em solid #4d4d4d;
-  background-color: #737373;
+  background: #737373;
   text-align: center;
   padding: 1em 0 5em; }
   .footer-nav li {
