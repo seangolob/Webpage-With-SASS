@@ -5,7 +5,7 @@ $dot-border: 0.08em dotted $beta;
   border-top: $dot-border;
   border-bottom: $dot-border;
   padding: 1em;
-  border-right: 5px solid #ccc;
+  border-right: 5px solid $beta;
   &:hover {
     border-right: 5px solid $beta-dark;
   }
@@ -13,10 +13,4 @@ $dot-border: 0.08em dotted $beta;
 
 .other-article:last-child {
   border-bottom: none;
-}
-
-aside {
-  a:hover {
-    color: #000;
-  }
 }

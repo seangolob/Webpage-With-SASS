@@ -23,13 +23,13 @@ main {
   margin: 0 auto;
   padding: 0.9em 0;
   background: $beta-light;
-  border-top: 0.1em solid $beta;
 }
 
 .inner-main {
   background: #fff;
   width: 90%;
   margin: 0 auto;
+  box-shadow: 0 0.1em 1em $beta;
 }
 
 article {
@@ -43,6 +43,7 @@ article {
 aside {
   width: 30%;
   float: left;
+  box-shadow: inset 0.4em 0 1.5em -0.5em $beta;
   @media (max-width: $tablet){
     width: 100%;
   }

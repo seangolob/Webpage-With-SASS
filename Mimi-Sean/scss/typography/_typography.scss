@@ -38,9 +38,18 @@ a {
   h2 {
     font-size: $large;
   }
+  p:last-child {
+    color: $beta-darker;
+  }
 }
 
 .banner-title {
   font-family: 'Merriweather', serif;
   font-size: $gigantor;
+}
+
+aside {
+  a:hover {
+    color: #000;
+  }
 }
