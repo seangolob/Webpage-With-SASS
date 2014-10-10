@@ -2,17 +2,15 @@
 
 .footer-nav {
   border-top: 0.1em solid $beta-darker;
-  background: $beta-dark;
-  text-align: center;
   padding: 1em 0 5em;
+  text-align: center;
   li {
     @include nav-format;
   }
   a {
     color: $beta;
-    font-size: $tiny;
-  }
-  a:hover {
-    text-decoration: underline;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }

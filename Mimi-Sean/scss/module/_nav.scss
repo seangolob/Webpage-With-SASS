@@ -4,18 +4,15 @@ a:hover {
 }
 
 .banner-title {
-  font-size: $gigantor;
-  font-family: 'Merriweather', serif;
   text-align: center;
   padding-top: 1.5em;
   color: #000;
 }
 
 .main-nav {
-  border-top: 0.2em solid black;
+  border-top: 0.1em solid black;
   text-align: center;
   li {
     @include nav-format;
-    font-size: $small;
   }
 }

@@ -2,7 +2,7 @@
 $tablet: 1024px;
 
 body {
-  background-color: $beta-darkest;
+  background: $beta-darkest;
 }
 
 .container-body {
@@ -15,14 +15,15 @@ body {
 
 header {
   width: 100%;
-  background-color: #fff;
+  background: #fff;
 }
 
 main {
   width: 100%;
   margin: 0 auto;
   padding: 0.9em 0;
-  background-color: $beta-light;
+  background: $beta-light;
+  border-top: 0.1em solid $beta;
 }
 
 .inner-main {
@@ -49,4 +50,5 @@ aside {
 
 footer {
   width: 100%;
+  background: $beta-dark;
 }

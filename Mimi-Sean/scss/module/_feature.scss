@@ -1,6 +1,6 @@
 /* FEATURE-MODULE */
 .feature {
-    section {
+  section {
     padding: 2em;
     @media (max-width: $tablet) {
       padding: 1em;
@@ -8,5 +8,9 @@
   }
   img {
     width: 100%;
+  }
+
+  p:last-child {
+    color: #000;
   }
 }

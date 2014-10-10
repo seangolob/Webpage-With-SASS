@@ -1,26 +1,51 @@
-/* DEFINE BASE COLORS */
 /* DEFINE BASE FONT FILES */
 html {
+  font-size: 18px;
   font-family: helvetica, arial, sans-serif; }
+  @media (min-width: 800px) {
+    html {
+      font-size: 19px; } }
+  @media (min-width: 860px) {
+    html {
+      font-size: 20px; } }
+  @media (min-width: 920px) {
+    html {
+      font-size: 21px; } }
+  @media (min-width: 1000px) {
+    html {
+      font-size: 22px; } }
 
 h1 {
-  font-size: 12.96px;
+  font-size: 0.61805rem;
   color: red; }
 
 h2 {
-  font-size: 20.9952px; }
+  font-size: 1rem; }
 
 p {
-  font-size: 12.96px;
+  font-size: 0.61805rem;
   color: #737373; }
 
+a {
+  font-size: 0.61805rem; }
+
+.feature h2 {
+  font-size: 1.618rem; }
+
+.banner-title {
+  font-family: 'Merriweather', serif;
+  font-size: 2.61792rem; }
+
 /* BASE */
-body, h1, ul {
+body, h1, ul, h2, p {
   margin: 0;
   padding: 0; }
 
 h2 {
-  padding: 0.1em 0; }
+  padding: 0.3em 0; }
+
+p {
+  padding: 0.5em 0; }
 
 a {
   text-decoration: none;
@@ -34,7 +59,7 @@ a {
 
 /* LAYOUT */
 body {
-  background-color: #292929; }
+  background: #292929; }
 
 .container-body {
   width: 80%;
@@ -45,13 +70,14 @@ body {
 
 header {
   width: 100%;
-  background-color: #fff; }
+  background: #fff; }
 
 main {
   width: 100%;
   margin: 0 auto;
   padding: 0.9em 0;
-  background-color: #e6e6e6; }
+  background: #e6e6e6;
+  border-top: 0.1em solid #CCCCCC; }
 
 .inner-main {
   background: #fff;
@@ -73,26 +99,24 @@ aside {
       width: 100%; } }
 
 footer {
-  width: 100%; }
+  width: 100%;
+  background: #737373; }
 
 /* NAV-MODULE */
 a:hover {
   color: red; }
 
 .banner-title {
-  font-size: 55.0998px;
-  font-family: 'Merriweather', serif;
   text-align: center;
   padding-top: 1.5em;
   color: #000; }
 
 .main-nav {
-  border-top: 0.2em solid black;
+  border-top: 0.1em solid black;
   text-align: center; }
   .main-nav li {
     display: inline-block;
-    margin: 1em;
-    font-size: 12.96px; }
+    margin: 0.5em; }
 
 /* FEATURE-MODULE */
 .feature section {
@@ -102,26 +126,29 @@ a:hover {
       padding: 1em; } }
 .feature img {
   width: 100%; }
+.feature p:last-child {
+  color: #000; }
 
 /* OTHER ARTICLE-MODULE */
 .other-article {
-  border-top: 1px dotted #CCCCCC;
-  border-bottom: 1px dotted #CCCCCC;
+  border-top: 0.08em dotted #CCCCCC;
+  border-bottom: 0.08em dotted #CCCCCC;
   padding: 1em; }
+
+.other-article:last-child {
+  border-bottom: none; }
 
 /* FOOTER-MODULE */
 .footer-nav {
   border-top: 0.1em solid #4d4d4d;
-  background: #737373;
-  text-align: center;
-  padding: 1em 0 5em; }
+  padding: 1em 0 5em;
+  text-align: center; }
   .footer-nav li {
     display: inline-block;
-    margin: 1em; }
+    margin: 0.5em; }
   .footer-nav a {
-    color: #CCCCCC;
-    font-size: 8px; }
-  .footer-nav a:hover {
-    text-decoration: underline; }
+    color: #CCCCCC; }
+    .footer-nav a:hover {
+      text-decoration: underline; }
 
 /*# sourceMappingURL=app.css.map */

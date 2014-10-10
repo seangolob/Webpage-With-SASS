@@ -1,11 +1,15 @@
 /* BASE */
-body, h1, ul {
+body, h1, ul, h2, p {
   margin: 0;
   padding: 0;
 }
 
 h2 {
-  padding: 0.1em 0;
+  padding: 0.3em 0;
+}
+
+p {
+  padding: 0.5em 0;
 }
 
 a {
