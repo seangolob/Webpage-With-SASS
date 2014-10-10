@@ -133,10 +133,16 @@ a:hover {
 .other-article {
   border-top: 0.08em dotted #CCCCCC;
   border-bottom: 0.08em dotted #CCCCCC;
-  padding: 1em; }
+  padding: 1em;
+  border-right: 5px solid #ccc; }
+  .other-article:hover {
+    border-right: 5px solid #737373; }
 
 .other-article:last-child {
   border-bottom: none; }
+
+aside a:hover {
+  color: #000; }
 
 /* FOOTER-MODULE */
 .footer-nav {
