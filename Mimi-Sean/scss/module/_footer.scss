@@ -7,10 +7,4 @@
   li {
     @include nav-format;
   }
-  a {
-    color: $beta;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
 }

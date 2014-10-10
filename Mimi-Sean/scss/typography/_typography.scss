@@ -53,3 +53,18 @@ aside {
     color: #000;
   }
 }
+
+.main-nav {
+  a:hover {
+    color: red;
+  }
+}
+
+.footer-nav {
+  a {
+    color: $beta;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

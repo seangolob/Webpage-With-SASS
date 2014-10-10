@@ -41,6 +41,14 @@ a {
 aside a:hover {
   color: #000; }
 
+.main-nav a:hover {
+  color: red; }
+
+.footer-nav a {
+  color: #CCCCCC; }
+  .footer-nav a:hover {
+    text-decoration: underline; }
+
 /* BASE */
 body, h1, ul, h2, p {
   margin: 0;
@@ -109,9 +117,6 @@ footer {
   background: #737373; }
 
 /* NAV-MODULE */
-a:hover {
-  color: red; }
-
 .banner-title {
   text-align: center;
   padding-top: 1.5em;
@@ -154,9 +159,5 @@ a:hover {
   .footer-nav li {
     display: inline-block;
     margin: 0.5em; }
-  .footer-nav a {
-    color: #CCCCCC; }
-    .footer-nav a:hover {
-      text-decoration: underline; }
 
 /*# sourceMappingURL=app.css.map */
