@@ -136,8 +136,8 @@ a:hover {
 
 /* OTHER ARTICLE-MODULE */
 .other-article {
-  border-top: 0.08em dotted #CCCCCC;
-  border-bottom: 0.08em dotted #CCCCCC;
+  border-top: 0.09em dotted #CCCCCC;
+  border-bottom: 0.09em dotted #CCCCCC;
   padding: 1em;
   border-right: 5px solid #CCCCCC; }
   .other-article:hover {
